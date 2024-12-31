@@ -109,7 +109,7 @@ The dataset used is the Stanford Dogs dataset, which contains images of 120 dog 
 ### Validation Metrics
 - **Validation Loss and Accuracy over Epochs**:
 
-![Evaluation Val Loss and Val Acc](./docs/Evaluation%20Val%20Loss_Val%20Acc.png)
+![Evaluation Val Loss and Val Acc](./docs/Evaluation%20Val%20Loss_Val%20Acc%20.png)
 
 ### Performance Comparison
 - **Validation Accuracy Comparison**:
