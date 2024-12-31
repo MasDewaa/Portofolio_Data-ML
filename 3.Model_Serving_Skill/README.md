@@ -121,4 +121,4 @@ To provide a better understanding of the API functionality, the following screen
 ![Swagger UI](./docs/ss_swagger.png)
 
 ### Example Screenshot: Testing Response
-![Testing Response](./docs/testing%respon.png)
+![Testing Response](./docs/testing respon.png)
