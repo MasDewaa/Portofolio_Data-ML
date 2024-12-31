@@ -57,6 +57,7 @@ uvicorn app:app --reload
 ```
 
 This will start the FastAPI server on http://127.0.0.1:8000.
+
 ### 4. API Endpoints
 
 #### 1. Root endpoint
@@ -71,6 +72,7 @@ The root endpoint returns a welcome message.
     "message": "Welcome to the CNN Classifier API using PyTorch!"
 }
 ```
+
 #### 2. Predict endpoint
 The `predict` endpoint accepts an image file and returns the predicted class and confidence score.
 
@@ -86,9 +88,6 @@ The `predict` endpoint accepts an image file and returns the predicted class and
 }
 ```
 
-
-markdown
-Salin kode
 ### 5. Dockerization (Optional)
 
 To run the FastAPI app in a Docker container, follow these steps:
@@ -110,3 +109,16 @@ docker run -d -p 8000:8000 --name fastapi-pytorch-container fastapi-pytorch-app
 ```
 
 This will start the app inside a Docker container and expose the FastAPI server at http://localhost:8000.
+
+## Documentation Screenshots
+
+To provide a better understanding of the API functionality, the following screenshots are included in the `/docs` folder:
+
+- **Swagger UI**: The `ss_swagger.png` file shows the Swagger UI for the API.
+- **Testing Response**: The `testing_respon.png` file shows an example of the response from the `/predict` endpoint.
+
+### Example Screenshot: Swagger UI
+![Swagger UI](./docs/ss_swagger.png)
+
+### Example Screenshot: Testing Response
+![Testing Response](./docs/testing_respon.png)
