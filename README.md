@@ -1,2 +1,1 @@
-# RubyThalibTest
- 
+Spesifik readme ada di masing masing folder
